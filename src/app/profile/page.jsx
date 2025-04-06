@@ -159,7 +159,7 @@ export default function Profile() {
                       value={userData.medications}
                       onChange={(e) => setUserData({ ...userData, medications: e.target.value })}
                       className="w-full p-3 rounded bg-gray-700 text-white"
-                      placeholder="Enter your medications"
+                      placeholder="Ongoing medications (if any)"
                     />
                   </div>
                   <div>
@@ -278,7 +278,7 @@ export default function Profile() {
                 value={userData.medications}
                 onChange={(e) => setUserData({ ...userData, medications: e.target.value })}
                 className="w-full p-3 rounded bg-gray-700 text-white"
-                placeholder="Enter your medications"
+                placeholder="Ongoing Medications (if any)"
               />
             </div>
             <div>
